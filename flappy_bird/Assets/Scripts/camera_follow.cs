@@ -14,7 +14,7 @@ public class camera_follow : MonoBehaviour
 
 
     // Update is called once per frame
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (bird_transform != null)
         {   //transform.position = new Vector3(bird_transform.position.x, bird_transform.position.y, bird_transform.position.z - camera_look_depth);

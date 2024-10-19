@@ -277,13 +277,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8852344055583411406}
-  - component: {fileID: 4572220507489569436}
+  - component: {fileID: 9150957697846817992}
   - component: {fileID: 1946116433880969287}
   - component: {fileID: 5514128769162478848}
   - component: {fileID: 1680043550739949648}
   - component: {fileID: 3821091774187021340}
   m_Layer: 0
-  m_Name: bird
+  m_Name: ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,7 +305,7 @@ Transform:
   - {fileID: 4237605605430790617}
   m_Father: {fileID: 9153894247262809510}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4572220507489569436
+--- !u!33 &9150957697846817992
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -336,7 +336,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 796eb7af46d94534f9ea407dcfb9c9d4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -403,7 +403,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &3821091774187021340
@@ -573,4 +573,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera_look_depth: 9
   bird_transform: {fileID: 8852344055583411406}
-  cam_smooth_time: 2
+  cam_smooth_time: 0.03

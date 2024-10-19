@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3618998937062523801}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.58, y: -5.856303, z: -0.057774305}
+  m_LocalPosition: {x: 199, y: 167, z: 428}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player_mesh: {fileID: 0}
+  scene_loader: {fileID: 0}
 --- !u!1001 &2337763103672889264
 PrefabInstance:
   m_ObjectHideFlags: 0
